@@ -1,0 +1,127 @@
+<!DOCTYPE HTML>
+
+<html lang="ru">
+
+<head>
+	<title>Seances 🞄 Cinematics</title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" href="../css/fonts.css" type="text/css">
+	<link rel="stylesheet" href="../css/nav.css" type="text/css">
+	<link rel="stylesheet" href="../css/profile.css" type="text/css">
+</head>
+
+<body>
+
+	<nav>
+		<img class="logo" src="../img/video-camera.svg">
+		<div class="menu">
+			<div class="buttons">
+				<a href='../index.html'>Головна</a>
+				<a href='seances.html'>Сеанси</a>
+				<a href='contacts.html'>Контакти</a>
+				<a href='profile.html'>Профіль</a>
+			</div>
+			<img src="../img/icons8-поиск.svg">
+		</div>
+	</nav>
+
+	<div class="title">
+		Профіль
+	</div>
+
+	<div class="prof">
+		<div class="naming">
+			<div class="icon"><img src="../img/user.svg" alt=""></div>
+			<div class="text">
+				<p class="name">Ivan</p>
+				<p class="surname">Neperebornyi</p>
+				<p class="visited">Сеансів відвідано: 2</p>
+			</div>
+		</div>
+		<div class="edit"><img src="../img/edit.svg" alt=""></div>
+	</div>
+
+	<div class="content">
+		<form action="handler.php" class="panel">
+			<div class="panel-button">
+				<input id='rb1' name="pan-rad" type="radio" value="actual" checked>
+				<label for="rb1">Актуальні</label>
+			</div>
+			<div class="panel-button">
+				<input id='rb2' name="pan-rad" type="radio" value="history">
+				<label for="rb2">Історія</label>
+			</div>
+			<div class="panel-button">
+				<input id="rb3" name="pan-rad" type="radio" value="liked">
+				<label for="rb3">Вподобані</label>
+			</div>
+		</form>
+	</div>
+
+	<div class="content">
+		<div class="tickets">
+			<div class="ticket">
+				<div class="poster"><img src="../img/poster_5d11b0dc19194.jpg" alt=""></div>
+				<div class="info">
+					<div class="tick-name">Angry birds 2</div>
+					<div class="tick-order">
+						<div class="place">
+							<div class="ord-time">12.07.2020 18:00</div>
+							<div class="ord-place">2 ряд 2 місце
+	2 ряд 3 місце
+							</div>
+						</div>
+						<div class="food">Попкорн великий сирний
+	Попкорн великий солодкий
+	Напій “Sprite” 0.5 л
+						</div>
+					</div>
+					<div class="tick-bottom">
+						<div class="like">
+							<input type="checkbox" id="like1">
+							<label for="like1"></label>
+						</div>
+						<div class="prize">
+							<div class="sum">210.5</div>
+							<div class="grn">грн</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="ticket">
+				<div class="poster"><img src="../img/poster_60238a432c203.jpg" alt=""></div>
+				<div class="info">
+					<div class="tick-name">Джамбо</div>
+					<div class="tick-order">
+						<div class="place">
+							<div class="ord-time">12.07.2020 18:00</div>
+							<div class="ord-place">2 ряд 2 місце
+	2 ряд 3 місце
+							</div>
+						</div>
+						<div class="food">Попкорн великий сирний
+	Попкорн великий солодкий
+	Напій “Sprite” 0.5 л
+						</div>
+					</div>
+					<div class="tick-bottom">
+						<div class="like">
+							<input type="checkbox" id="like2">
+							<label for="like2"></label>
+						</div>
+						<div class="prize">
+							<div class="sum">301.2</div>
+							<div class="grn">грн</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+</body>
+
+</html>

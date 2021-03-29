@@ -1,0 +1,197 @@
+body {
+	padding: 0;
+	margin: 0;
+	background-color: #060E0C;
+}
+
+::-webkit-scrollbar{
+	width: 0px;
+}
+
+.title {
+	font-family: Roboto-Bold;
+	font-size: 64px;
+	margin-left: 5%;
+	margin-top: 80px;
+	color: #F4FFF8;
+}
+
+.prof {
+	margin: 70px 5% 0;
+	height: 260px;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 5px solid #F4FFF8;
+}
+.naming {
+	display: flex;
+}
+.icon {
+	width: 200px;
+	height: 200px;
+	margin-right: 35px;
+}
+.icon img {
+	width: 100%;
+	height: 100%;
+}
+.text {
+	font-family: Roboto-Bold;
+}
+.name {
+	color: #F4FFF8;
+	font-size: 64px;
+	margin: 25px 0 0;
+}
+.surname {
+	color: #F4FFF8;
+	font-size: 48px;
+	margin: -5px 0 10px;
+}
+.visited {
+	color: #D6FFE4;
+	font-size: 18px;
+	margin: 0;
+}
+.edit {
+	width: 80px;
+	height: 80px;
+	margin-top: 50px;
+	cursor: pointer;
+}
+.edit img {
+	width: 100%;
+	height: 100%;
+}
+
+.content {
+	display: flex;
+	justify-content: center;
+}
+
+.panel {
+	margin-top: 110px;
+	width: 600px;
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	border: 4px solid #F4FFF8;
+}
+.panel-button {
+	width: 33.3334%;
+	height: 100%;
+	display: inline-block;
+}
+.panel-button input {
+	display: none;
+}
+.panel-button label {
+	font-family: Roboto-Bold;
+	font-size: 24px;
+	display: flex;
+	justify-content: center;
+	cursor: pointer;
+	background-color: #F4FFF8;
+	color: #060E0C;
+	line-height: 100px;
+	user-select: none;
+}
+.panel-button input:checked + label {
+	background-color: #060E0C;
+	color: #F4FFF8;
+	transition: 0.3s;
+}
+.panel-button:hover label {
+	color: rgba(6, 14, 12, 0.6);
+	transition: 0.7s;
+}
+
+.tickets {
+	margin-top: 70px;
+}
+.ticket {
+	width: 800px;
+	height: 300px;
+	margin-bottom: 50px;
+	display: flex;
+	background-color: rgba(190, 124, 77, 0.7);
+}
+.poster {
+	padding: 9px;
+	width: 184px;
+	height: 282px;
+}
+.poster img {
+	width: 100%;
+	height: 100%;
+}
+.info {
+	padding-left: 6px;
+	width: 585px;
+	position: relative;
+}
+.tick-name {
+	text-align: center;
+	font-family: Roboto-Medium;
+	font-size: 36px;
+	margin-top: 8px;
+	color: #F4FFF8;
+}
+.tick-order {
+	display: flex;
+	font-family: Roboto-Medium;
+	color: #F4FFF8;
+	font-size: 18px;
+	margin-top: 15px;
+}
+.place {
+	width: 160px;
+}
+.ord-time {
+	margin: 0 0 10px;
+}
+.food {
+	width: 250px;
+	padding-left: 10px;
+}
+.tick-bottom {
+	font-family: Roboto-Medium;
+	color: #F4FFF8;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	display: flex;
+}
+.prize {
+	display: flex;
+	position: relative;
+	margin-bottom: 10px;
+}
+.sum {
+	font-size: 36px;
+}
+.grn {
+	font-size: 18px;
+	margin-left: 3px;
+}
+.like input {
+	display: none;
+}
+.like label {
+	display: inline-block;
+	position: relative;
+	width: 40px; height: 40px;
+	margin-right: 20px;
+	cursor: pointer;
+}
+.like label::before {
+	content: '';
+	position: absolute;
+	background-image: url(../img/icons8-роман-100.png);
+	background-size: 100%;
+	width: 100%; height: 100%;
+	transition: 0.7s;
+}
+.like input:checked + label::before {
+	background-image: url(../img/icons8-роман-101.png);
+}
